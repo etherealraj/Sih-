@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delhi Water Bodies Monitoring</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Add to the <head> section -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Nadi Nirakshak Logo" id="logo">
+        
+        <h1>Delhi Water Bodies Monitoring</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#data">Real-Time Data</a></li>
+                <li><a href="#reports">Reports</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome</h2>
+        <p>Welcome to the online platform for real-time monitoring of water bodies in Delhi.</p>
+    </section>
+
+    <section id="data">
+        <h2>Real-Time Data</h2>
+        <div id="map"></div>
+        <div id="data-visualization">
+            <!-- Real-time data graphs/charts will be inserted here -->
+        </div>
+    </section>
+
+    <section id="reports">
+        <h2>Reports</h2>
+        <p>Access historical reports and data on Delhi's water bodies.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Delhi Water Bodies Monitoring. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
